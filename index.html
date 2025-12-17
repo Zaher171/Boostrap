@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta Cisco - Bootstrap 5</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <a class="navbar-brand mx-auto position-absolute start-50 translate-middle-x" href="#">
+                CISCO <span class="text-cisco">///</span>
+            </a>
+
+            <div class="d-flex gap-2">
+                <a href="#" class="btn btn-link text-dark text-decoration-none d-none d-md-block">Log in</a>
+                <button class="btn btn-outline-primary rounded-pill px-4 btn-sm">Buscar</button>
+            </div>
+
+            <div class="collapse navbar-collapse mt-3" id="menuPrincipal">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Soluciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Soporte</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="card text-bg-dark border-0 rounded-0 mb-5 fade-in-element">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" class="card-img opacity-50" alt="Hero" style="height: 500px; object-fit: cover;" loading="lazy">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center p-5">
+            <h1 class="display-3 fw-bold">El puente a lo posible</h1>
+            <p class="lead fs-3">Tecnología para un futuro inclusivo.</p>
+            <button class="btn btn-primary btn-lg mt-3 rounded-pill px-5">Ver más</button>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <div class="row align-items-center mb-5 fade-in-element">
+            <div class="col-12 col-md-6 p-4">
+                <h6 class="text-muted text-uppercase">Redes</h6>
+                <h2 class="display-6 fw-bold">Conectividad Segura</h2>
+                <p class="text-secondary">Simplifique operaciones y proteja su negocio con redes intuitivas.</p>
+                <a href="#" class="text-cisco text-decoration-none fw-bold">Leer más ></a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" class="img-cover rounded" alt="Redes" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5 fade-in-element">
+            <div class="col-12 col-md-6 order-md-2 p-4">
+                <h6 class="text-muted text-uppercase">Seguridad</h6>
+                <h2 class="display-6 fw-bold">Ciberseguridad Zero Trust</h2>
+                <p class="text-secondary">Defensa integrada contra amenazas en constante evolución.</p>
+                <a href="#" class="text-cisco text-decoration-none fw-bold">Leer más ></a>
+            </div>
+            <div class="col-12 col-md-6 order-md-1">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600&auto=format&fit=crop" class="img-cover rounded" alt="Seguridad" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5 fade-in-element">
+            <div class="col-12 col-md-6 p-4">
+                <h6 class="text-muted text-uppercase">Trabajo Híbrido</h6>
+                <h2 class="display-6 fw-bold">Colaboración Webex</h2>
+                <p class="text-secondary">Potencia a tus equipos para trabajar desde cualquier lugar.</p>
+                <a href="#" class="text-cisco text-decoration-none fw-bold">Leer más ></a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=600&auto=format&fit=crop" class="img-cover rounded" alt="Colaboración" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-fluid bg-light py-5 mb-5 fade-in-element">
+        <div class="container text-center">
+            <h2 class="fw-bold">Innovación Global</h2>
+            <p class="lead text-muted">Descubre cómo transformamos el mundo.</p>
+            <button class="btn btn-outline-dark rounded-pill">Ver historias</button>
+        </div>
+    </section>
+
+    <section class="container mb-5 fade-in-element">
+        <h3 class="mb-4">Explorar tecnologías <small class="text-muted fs-6">(Clic en imagen)</small></h3>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pointer" data-bs-toggle="collapse" data-bs-target="#col1">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=300&auto=format&fit=crop" class="w-100 rounded mb-2" alt="IoT" loading="lazy">
+                    <h5 class="fw-bold">IoT</h5>
+                </div>
+                <div class="collapse" id="col1">
+                    <div class="card card-body bg-light small">Conecta tus dispositivos industriales.</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pointer" data-bs-toggle="collapse" data-bs-target="#col2">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=300&auto=format&fit=crop" class="w-100 rounded mb-2" alt="Cloud" loading="lazy">
+                    <h5 class="fw-bold">Cloud</h5>
+                </div>
+                <div class="collapse" id="col2">
+                    <div class="card card-body bg-light small">Gestión multicloud simplificada.</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pointer" data-bs-toggle="collapse" data-bs-target="#col3">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=300&auto=format&fit=crop" class="w-100 rounded mb-2" alt="Soft" loading="lazy">
+                    <h5 class="fw-bold">Software</h5>
+                </div>
+                <div class="collapse" id="col3">
+                    <div class="card card-body bg-light small">Licenciamiento flexible y ágil.</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pointer" data-bs-toggle="collapse" data-bs-target="#col4">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=300&auto=format&fit=crop" class="w-100 rounded mb-2" alt="Data" loading="lazy">
+                    <h5 class="fw-bold">Data Center</h5>
+                </div>
+                <div class="collapse" id="col4">
+                    <div class="card card-body bg-light small">Infraestructura moderna.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5 fade-in-element">
+        <div class="container">
+            <div class="d-none d-md-flex justify-content-center gap-5">
+                <span class="text-uppercase fw-bold text-muted">Social:</span>
+                <a href="#" class="text-white text-decoration-none">Facebook</a>
+                <a href="#" class="text-white text-decoration-none">Twitter</a>
+                <a href="#" class="text-white text-decoration-none">LinkedIn</a>
+            </div>
+            <div class="accordion accordion-flush d-md-none" id="accFooter">
+                <div class="accordion-item bg-dark text-white border-secondary">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#accContent">
+                            Redes Sociales
+                        </button>
+                    </h2>
+                    <div id="accContent" class="accordion-collapse collapse" data-bs-parent="#accFooter">
+                        <div class="accordion-body">
+                            <a href="#" class="d-block text-white mb-2">Facebook</a>
+                            <a href="#" class="d-block text-white mb-2">Twitter</a>
+                            <a href="#" class="d-block text-white">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 text-muted small">&copy; 2023 Cisco Mockup.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.fade-in-element').forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
